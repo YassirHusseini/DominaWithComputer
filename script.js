@@ -185,7 +185,7 @@ for (let i = 0; i < 28; i++) {
             leftPart = this.children[3];
         }
         this.style.position = "absolute"
-        this.style.top = `${width*bar/2 + (FinalTopValue)}px`;
+        this.style.top = `${( ( width*bar ) /2) + FinalTopValue}px`;
         this.style.left = `calc(50% + ${leftValue}px)`
         this.style.transform =  "rotate("+degree+"deg)";
         this.classList.add("done");
